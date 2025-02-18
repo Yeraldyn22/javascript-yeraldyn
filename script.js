@@ -20,3 +20,4 @@ console.log(typeof cantidad);
 alert(typeof precio);
 //escribir en un documento
 document.write(typeof cantidad);
+alert("lo lograste")
