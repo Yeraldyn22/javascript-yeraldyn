@@ -2,7 +2,7 @@
 
 
 //ejercicio 1
-let nombre = "yeraldyn aros" ;
+/*let nombre = "yeraldyn aros" ;
 let edad = 29; 
 let ciudad = "Garzon";
 console.log("hola, mi nombres es " + nombre + ",tengo"+ edad + "años y vivo en" + ciudad + ".");
@@ -12,14 +12,14 @@ console.log("hola, mi nombres es " + nombre + ",tengo"+ edad + "años y vivo en"
 cantidad  y asignale un valor entero . muestra el tipo de variable en la consola
 */
 
-let valor = 2.25;
+/*let valor = 2.25;
 let cantidad = 3; 
 
 //escribir en una consola 
-console.log(typeof precio);
+console.log(typeof valor);
 console.log(typeof cantidad);
 //escribir una alerta 
-alert(typeof precio);
+alert(typeof valor);
 //escribir en un documento
 document.write(typeof cantidad);
 alert("lo lograste")
@@ -32,7 +32,7 @@ alert("lo lograste")
 
 // 1 Una tienda ofrece un 25% de descuento por cada compra. Un cliente desea saber cuánto deberá pagar por su compra.
 
-let precio = 20500 ;
+/*let precio = 20500 ;
 let descuento = 0.25 ;
 let montoDescuento = precio * descuento;
 let total = precio - montoDescuento;
@@ -42,7 +42,7 @@ console.log("el precio de la blusa es " + precio + " ,pero tiene un descuemto de
 
 // 2. Suponga que un individuo desea invertir su capital en un banco y desea sabercuánto dinero ganara después de un mes si el banco paga a razón de 2% mensual.
 
-let inversion = 158000;
+/*let inversion = 158000;
 let ganancia = 0.02;
 let interesGanado = inversion * ganancia; 
 let totalConGanancia = inversion + interesGanado;
@@ -55,7 +55,7 @@ a. 55% del promedio de sus tres calificaciones parciales.
 b. 30% de la calificación del examen final.
 c. 15% de la calificación de un trabajo final.*/ 
 
-let calificacion1 = 4.5;
+/*let calificacion1 = 4.5;
 let calificacion2 = 3.5;
 let calificacion3 = 4.3;
 let examenFinal= 4.6;
@@ -70,7 +70,7 @@ console.log( "la calificacion final de la materia de algoritmos del alumno se ca
 
 //4. El dueño de una tienda compra un artículo a un precio determinado. Obtener el precio en que lo debe vender para obtener una ganancia del 30%.
 
-let precioArticulo = 10000;
+/*let precioArticulo = 10000;
 
 let porcentajeGanancia = 0.30;
 
@@ -83,7 +83,7 @@ console.log(" El precio del articulo comprado es " + precioArticulo + " y el por
 
 //5. Un taxi cobra por una carrera 15 mil pesos por kilómetro recorrido y 2 mil por minuto. Determine el monto a pagar por una carrera.
 
-let tarifaKilometro = 15000;
+/*let tarifaKilometro = 15000;
 let tarifaMinuto = 2000;
 let kilómetros = 10;
 let minutos = 40;
@@ -94,7 +94,7 @@ console.log("El costo total de la carrera es:" + costoTotal + "mil pesos");
 
 //6. Realizara un programa en el cual se van a leer tres números y determinar el cuadrado de cada uno de ellos.
 
-let numero1 = 10;
+/*let numero1 = 10;
 let numero2 = 20;
 let numero3 = 15; 
 
@@ -114,7 +114,7 @@ Ginecología 40%
 Traumatología 30%
 Pediatría 30%*/
 
-let presupuestoHospital = 100000000;
+/*let presupuestoHospital = 100000000;
 let porcentajeGinecologia = 0.40;
 let porcentajeTraumatologia = 0.30;
 let porcentajePediatria = 0.30; 
@@ -132,7 +132,7 @@ console.log("El presupuesto para Pediatria es : " +presupuestoPediatria);
 ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte
 con respecto a la cantidad total invertida. */
 
-let persona1 = 2000000;
+/*let persona1 = 2000000;
 let persona2 = 4000000;
 let persona3 = 6000000;
 
@@ -150,7 +150,7 @@ console.log("la persona 3 invirtio el " +porcentaje3+ "% en la empresa");
 /*Realizar una calculadora con las operaciones básicas suma, división,
 multiplicación y división.*/
 
-let num1= 20;
+/*let num1= 20;
 let num2= 6;
 
 let suma=(num1 + num2);
@@ -162,7 +162,142 @@ console.log("OPERACIONES BASICAS:");
 console.log("El resultado de la suma de los numeros 20 + 6 es = " +suma);
 console.log("El resultado de la resta de los numeros 20 - 6 es = " +resta);
 console.log("El resultado de la resta de los numeros 20 * 6 es = " +multiplicacion);
-console.log("El resultado de la resta de los numeros 20 / 6 es = " +división);
+console.log("El resultado de la resta de los numeros 20 / 6 es = " +división); */ 
+
+//EJERCICIOS PARTE 3
+
+
+//Declarar dos variables una de esa sea nombre, y la otra edad , y mostrar si es mayor de edad.
+
+/*let nombre1=prompt('ingrese su nombre');
+let edad1= parseInt(prompt('ingrese su edad'));
+
+if (edad1>=18){
+
+    alert("hola "+nombre1+" eres mayor de edad");
+
+}  else{
+    alert("hola " +nombre1+ " eres menor de edad" );
+
+}
+
+/*el ususario digite nombre y edad con la siguiente operacion 
+
+1 a 18 años es joven
+19 a 40 años es adulto 
+41 a 60 años es maduro 
+51 en años adelante es anciano */
+
+/*let nombre2=prompt('ingrese su nombre');
+let edad2= parseInt(prompt('ingrese su edad'));
+
+if(edad2<=18){
+
+    alert("hola "+nombre2+" eres joven");
+
+}  else if(edad2>=19 && edad2<=40){
+
+    alert("hola " +nombre2+ " eres adulto" );
+}
+ else if(edad2<=41 && edad2<=60){
+
+    alert("hola " +nombre2+ " eres un maduro" );
+}
+ else if(edad2>=50){
+
+    alert("hola " +nombre2+ " eres un anciano" );
+}
+
+//CICLO WHILE
+
+//Declarar una variable numerica que muestre la cuenta regresiva a llegar a 0
+
+//Iniciamos la variable fuera del nuecleo*/
+
+/*let cuentaAtras=(parseInt(prompt('ingrese un numero')));
+
+while (cuentaAtras>0){
+
+//mostramos el valor de la cuent ATRAS EN CADA INTERRACION
+
+document.write(cuentaAtras+ '<br>')
+
+//restamos 1 a la cuenta atras 
+
+cuentaAtras = cuentaAtras-1
+// si la cuenta atrás es 5, salimos del bucle
+if (cuentaAtras === 5) {
+    break // salimos del bucle
+ }
+
+}
+document.write('Despegue 🚀')*/
+
+//DO WHILE
+
+//IMPRIMIR 5 EDADES DIFERENTES DE DISTINTAS PERSONAS Y DTERMINAR SI SON MAYORES DE EDAD 
+
+
+/*let contador=0
+
+do {
+    let persona4=(prompt('ingrese su nombre'));
+    let edad4=(parseInt(prompt('ingrese su edad')));
+
+    if(edad4>=18){
+
+        alert(persona4+ "No." +contador +" es mayor de edad");
+    
+    }  else{
+        alert(persona4+ "No." +contador+ " es menor de edad" );}
+
+        contador++;
+
+     } while (contador<5);
+
+     alert ("se registraron " +persona+ " persona");
+     alert ("fin del programa")*/
+     
+
+
+
+/*   imprirmir las tablas de multiplicar del numero que el ususario ingrese 
+2x1=2
+2x2=4
+2x3=6
+2x4=8
+2x5=10
+2x6=12
+2x7=14
+2x8=16
+2x9=18
+2x10=20
+*/
+
+let multiplicacion=(parseInt(prompt('ingrese un numero')));
+
+for(let y=1; y<=10; y++){
+    let resultado = multiplicacion * y;
+
+    console.log(multiplicacion+ "x" +y+ "=" +resultado );
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
 
 
 
