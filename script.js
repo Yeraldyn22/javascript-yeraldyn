@@ -274,22 +274,181 @@ do {
 2x10=20
 */
 
-let multiplicacion=(parseInt(prompt('ingrese un numero')));
+/*let multiplicacion=(parseInt(prompt('ingrese un numero')));
 
 for(let y=1; y<=10; y++){
     let resultado = multiplicacion * y;
 
     console.log(multiplicacion+ "x" +y+ "=" +resultado );
-
-}
-
+}*/
 
 
 
+//SWITCH
+//EJERCIICO 1 : REALIZAR UN PROGRAMA QUE DETERMINE QUE DIA DE LA SEMANA CORRESPONDE HOY INGRESANDO O UTILIZANDO LA FUNCION PROMPT*/
+
+/*let dia =(prompt('ingrese que dia es hoy'));
+
+switch (dia) {
+  case "Lunes":
+    console.log("¡Hoy es lunes! 😢");
+    break
+
+    case "Martes":
+    console.log("¡Hoy es martes! 😢");
+    break
+
+    case "Mieroles":
+    console.log("¡Hoy es miercoles! 😢");
+    break
+
+    case "Jueves":
+    console.log("¡Hoy es jueves! 😢");
+    break
+
+    case "Viernes":
+    console.log("¡Hoy es viernes! 😢");
+    break
+
+    case "Sabado":
+    console.log("¡Hoy es sabado 😢");
+    break
+
+    case "Domingo":
+    console.log("¡Hoy es domingo! 😢");
+    break
+
+  default:
+    console.log("no es un dia de la semana 🚀");
+    break
+} */
+
+   /* let dia =(prompt('ingrese que dia es hoy'));
+
+    switch (dia) {
+      case "1":
+        console.log("¡Hoy es lunes! 😢");
+        break
+    
+        case "2":
+        console.log("¡Hoy es martes! 😢");
+        break
+    
+        case "3":
+        console.log("¡Hoy es miercoles! 😢");
+        break
+    
+        case "4":
+        console.log("¡Hoy es jueves! 😢");
+        break
+    
+        case "5":
+        console.log("¡Hoy es viernes! 😢");
+        break
+    
+        case "6":
+        console.log("¡Hoy es sabado 😢");
+        break
+    
+        case "7":
+        console.log("¡Hoy es domingo! 😢");
+        break
+    
+      default:
+        console.log("no es un dia de la semana 🚀");
+        break
+    }
+*/
+
+//utitlice la estructura switch para realizar el siguiente ejercicio .
+//el usuario digite nombre y edad con la siguiente de verificacion .
+/*1 a 18 años es joven
+19 a 40 años es adulto 
+41 a 60 años es maduro 
+51 en años adelante es anciano*/
+
+/*let nombre2=prompt('ingrese su nombre');
+let edad2= parseInt(prompt('ingrese su edad'));
+let edad = 25;
+
+switch(true) {
+  case (edad >= 18 && edad < 25):
+    console.log("Eres mayor de edad y eres joven");
+    break;
+  case (edad >= 25 && edad < 40):
+    console.log("Eres mayor de edad y estás en plena madurez");
+    break;
+  case (edad >= 40):
+    console.log("Eres mayor de edad y estás en la mejor edad");
+    break;
+  default:
+    console.log("Eres menor de edad");
+}*/
+
+//PARTE 4 
+
+/* Programa que dada la edad de una persona indique si es mayor o menor de
+edad. Se considera mayor de edad a partir de los 18 años.*/
+
+/*let persona1=prompt('ingrese su nombre');
+let edad1= parseInt(prompt('ingrese su edad'));
+
+if (edad1>=18){
+
+    alert("hola "+persona1+" eres mayor de edad");
+
+}  else{
+    alert("hola " +persona1+ " eres menor de edad" );
+
+} */
+
+
+//Dado dos números A y B, determinar si A es mayor, menor o igual que B
+
+let A= 50;
+let B= 45;
+let compararNumeros= (A,B);
+
+switch(true) {
+    case (A>B):
+      alert(A + "es mayor que " +B);
+      break;
+
+    case (A<B):
+      alert(A+ "es menor que" +B);
+      break;
+
+    default:
+      alert(A+ "es igual a" +B);
+  }
+
+  /*5. Dado el peso de una persona:
+a) Si el peso es menor o igual a 40 Kg. Muestre mensaje: Persona Baja de
+Peso;
+b) Si el peso es entre 41 y 70 Kg. Muestre el mensaje: Persona peso
+promedio;
+c) Si el peso es mayor a 71 Kg. Muestre el mensaje: “Persona con sobrepeso”*/
 
 
 
+    let peso4=(prompt('ingrese su peso'));
+  
 
+    if(peso4<=40){
+
+        alert(peso4+ "persona baja de peso");
+    
+    }  
+    else if(peso4<=70 && peso4>=41){
+        alert(peso4+ " persona peso promedio" );
+    }
+
+        else if(peso4>71){
+            alert(peso4+ " persona con sobre peso" );
+        
+        }
+
+        
 
 
 
