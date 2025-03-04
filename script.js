@@ -405,7 +405,7 @@ if (edad1>=18){
 
 //Dado dos números A y B, determinar si A es mayor, menor o igual que B
 
-let A= 50;
+/*let A= 50;
 let B= 45;
 let compararNumeros= (A,B);
 
@@ -430,7 +430,7 @@ promedio;
 c) Si el peso es mayor a 71 Kg. Muestre el mensaje: “Persona con sobrepeso”*/
 
 
-
+/*
     let peso4=(prompt('ingrese su peso'));
   
 
@@ -446,10 +446,168 @@ c) Si el peso es mayor a 71 Kg. Muestre el mensaje: “Persona con sobrepeso”*
         else if(peso4>71){
             alert(peso4+ " persona con sobre peso" );
         
-        }
+        } */
+       /*7. En un almacén se hace un 20% de descuento a los clientes cuya compra
+        supere los $1000, a los demás solo se les hace un 5% de descuento ¿ Cuál
+        será la cantidad que pagara una persona por su compra? */
+
+        /*let compra = prompt('Ingrese el valor de la compra:'); // Se obtiene la entrada del usuario
+        let totalPagar = compra - (compra * descuento); // Aplica el descuento
+
+        // Validar que la entrada sea un número
+        if (isNaN(compra)) {
+            alert('Por favor, ingrese un número válido.');
+        } else {
+            compra = parseFloat(compra); // Convertir la entrada a número
+            let descuento;
+        
+            if (compra > 1000) {
+                descuento = 0.20; // 20% de descuento
+            } else {
+                descuento = 0.05; // 5% de descuento
+            }
+        
+            let totalPagar = compra - (compra * descuento); // Aplica el descuento
+        
+            alert('El total a pagar es: $' + totalPagar); // Muestra el resultado
+        } // isNaN : es una función en JavaScript que se usa para verificar si un valor no es un número
+
+
+        /*9. Programa que lea los nombres y edades de dos personas e imprima cuál de
+      ellas tiene más edad. */
+
+      /*let contador=0
+
+do {
+    let persona4=(prompt('ingrese su nombre'));
+    let edad4=(parseInt(prompt('ingrese su edad')));
+
+    if(edad4>=18){
+
+        alert(persona4+  +contador +" es mayor de edad");
+    
+    }  else{
+        alert(persona4+  +contador+ " es menor de edad" );}
+
+        contador++;
+
+     } while (contador<3);
+
+     alert ("se registraron " +persona+ " persona");
+     alert ("fin del programa")*/
+
+     /*11.Leer 2 números; si son iguales que los multiplique, si el primero es mayor
+que el segundo que los reste y si no que los sume. */
+
+/*let num1=parseInt(prompt('ingrese un numero'));
+let num2=parseInt(prompt('ingrese un numero'));
+
+
+if(num1===num2){
+
+    alert((num1*num2));
+
+}  
+else if(num1>num2){
+    alert((num1-num2));}
+
+
+else {
+  alert(num1+num2)}*/
+
+  //13.Escribe un programa que determine si un número ingresado por el usuario es par o impar.
+
+  /*let num=parseInt(prompt('ingrese un numero'));//solicita al usuario que ingrese un número y lo convierte a un entero.
+
+ if (isNaN(num)){                                  //isNaN : es una función en JavaScript que se usa para verificar si un valor no es un número
+    alert('Por favor, ingrese un número válido.');
+ }
+ else if (num % 2 == 0){                         //determina si el numero es par o impar
+
+   alert(nu+ "es un numero par");
+ }
+
+ else(num+ "es un numero impar");*/
+
+ //15.Crea un programa que solicite un número y verifique si es positivo, negativo o igual a cero.
+
+/*let num3=parseInt(prompt('ingrese un numero'));
+
+if (isNaN(num3)) {  
+  alert('Por favor, ingrese un número válido.');  
+} else {  
+switch (Math.sign(num3)) {  /* devuelve:
+1 para números positivos.
+-1 para números negativos.
+0 para cero. 
+      case 1:  
+          alert(num3 + ' es un número positivo.');  
+          break;  
+      case -1:  
+          alert(num3 + ' es un número negativo.');  
+          break;  
+      case 0:  
+          alert('El número es igual a cero.');  
+          break;  
+}
+} */ 
+
+//17.Escribe un programa que permita al usuario seleccionar una figura geométrica (triángulo y cuadrado) y luego calcule el área de esa figura ingresando los datos necesarios para cada caso.
+
+/*let esTriangulo = confirm("Triangulo=aceptar o cuadrado=cancelar ");
+
+if(esTriangulo===true){
+let base=parseFloat(prompt('ingrese la base del triangulo'));
+let altura=parseFloat(prompt('ingrese la altura del triangulo'));
+let areaTriangulo=(base*altura)/2;
+
+alert("el area del triangulo es = " +areaTriangulo)
+}
+else{
+
+let lados=parseFloat(prompt('ingrese la medida de un lado del cuadrado'));
+let areaDelCuadrado=(lados*lados);
+
+alert("el area del cuandrado es ="+areaDelCuadrado)
+}*/
+
+//19.Diseña un programa que solicite el nombre de un usuario y su contraseña. Si el nombre es "admin" y la contraseña es "12345", muestra un mensaje de acceso concedido; de lo contrario, muestra un mensaje de acceso denegado.
+
+  let nombreUsuario=prompt("igrese su usuario");
+  let contraseña=prompt("ingrese la contraseña");   
+  let nombreUsuarioCorrecto="admin";
+  let contraseñaCorrecta="123456";
+
+  if(nombreUsuario===nombreUsuarioCorrecto && contraseña===contraseñaCorrecta){
+
+    alert("acceso concedido")
+
+  }else{
+    alert("acceso denegado")
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         
-
 
 
 
